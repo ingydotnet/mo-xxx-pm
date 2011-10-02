@@ -6,4 +6,4 @@ all: $(ALL)
 $(ALL): Makefile
 
 ../lib/%.pm : %.pm
-	perl -I../lib -MMo::Golfer -e "Mo::Golfer::run" $< > $@
+	perl -I../lib -MMo::Golf=golf < $< > $@
