@@ -1,6 +1,6 @@
 package Mo::xxx;
 my $MoPKG = "Mo::";
-$VERSION = 0.10;
+$VERSION = '0.10';
 
 use constant XXX_skip => 1;
 ${$MoPKG.'::DumpModule'} = 'YAML::XS';
