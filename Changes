@@ -1,4 +1,9 @@
 ---
+version: 0.11
+date:    Mon Oct  3 14:31:40 BST 2011
+changes:
+- Fix $DumperModule feature
+---
 version: 0.10
 date:    Mon Oct  3 00:44:55 BST 2011
 changes:
